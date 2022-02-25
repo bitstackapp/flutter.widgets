@@ -267,8 +267,8 @@ class ItemScrollController {
   }
 
   void _detach() {
-    // primaryScrollController = null;
-    // secondaryScrollController = null;
+    primaryScrollController = null;
+    secondaryScrollController = null;
     _scrollableListState = null;
   }
 }
